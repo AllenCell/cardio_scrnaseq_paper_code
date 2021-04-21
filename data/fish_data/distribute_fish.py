@@ -48,7 +48,7 @@ def distribute_fish(
     p.set(f"rnafish/manifest.csv", manifest)
 
     print(p)
-    # p.push(pkg_dest, s3_bucket, message="rnafish data")
+    p.push(pkg_dest, s3_bucket, message="rnafish data")
 
 
 if __name__ == "__main__":

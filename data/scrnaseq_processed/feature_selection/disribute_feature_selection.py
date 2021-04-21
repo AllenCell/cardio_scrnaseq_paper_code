@@ -10,7 +10,7 @@ def distribute_feature_selection(
     pkg_dest="aics/wtc11_hipsc_cardiomyocyte_scrnaseq_d0_to_d90",
     readme="README.md",
     s3_bucket="s3://allencell",
-    edit=False,
+    edit=True,
 ):
 
     # either edit package if it exists or create new
@@ -99,7 +99,7 @@ def distribute_feature_selection(
 
 
     print(p)
-    # p.push(pkg_dest, s3_bucket, message="feature selection")
+    p.push(pkg_dest, s3_bucket, message="feature selection")
 
 
 if __name__ == "__main__":

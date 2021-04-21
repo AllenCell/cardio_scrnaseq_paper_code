@@ -10,7 +10,7 @@ def distribute_protocol1(
     pkg_dest="aics/wtc11_hipsc_cardiomyocyte_scrnaseq_d0_to_d90",
     readme="README.md",
     s3_bucket="s3://allencell",
-    edit=False,
+    edit=True,
 ):
 
     # either edit package if it exists or create new
@@ -22,7 +22,7 @@ def distribute_protocol1(
 
     # package components
     # R object
-    seurat_obj = "/allen/aics/gene-editing/Manuscripts/Transcriptomics_2019/scrnaseq_supplement/paper_plots/D0_D12_D24_D90_paper_figures.RData"
+    seurat_obj = PurePath("/allen/aics/gene-editing/Manuscripts/Transcriptomics_2019/scrnaseq_supplement/paper_plots/D0_D12_D24_D90_paper_figures.RData")
     p.set("protocol1_D0_D12_D24_D90/seurat_object/D0_D12_D24_D90_paper_figures.RData", seurat_obj)
 
     # pairwise differential expression csvs
@@ -40,7 +40,7 @@ def distribute_protocol1(
         p.set(f"protocol1_D0_D12_D24_D90/cluster_differential_expression/enriched_go_terms/{go_file_name}", x)
 
     print(p)
-    # p.push(pkg_dest, s3_bucket, message="protocol1 analysis")
+    p.push(pkg_dest, s3_bucket, message="protocol1 analysis")
 
 
 if __name__ == "__main__":
