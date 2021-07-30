@@ -55,7 +55,7 @@ Instructions for interacting with quilt packages in Python can be found [here](h
 ## Citation
 ```
 @article {Grancharova2021.04.22.441027,
-    author = {Grancharova, Tanya and Gerbin, Kaytlyn A and Rosenberg, Alexander B and Roco, Charles M and Arakaki, Joy and DeLizzo, Colette and Dinh, Stephanie Q and Donovan-Maiye, Rory and Hirano, Matthew and Nelson, Angelique and Tang, Joyce and Theriot, Julie A and Yan, Calysta and Menon, Vilas and Palecek, Sean P and Seelig, Georg and Gunawardane, Ruwanthi N},
+    author = {Grancharova, Tanya and Gerbin, Kaytlyn A and Rosenberg, Alexander B and Roco, Charles M and Arakaki, Joy E and DeLizo, Colette M and Dinh, Stephanie Q and Donovan-Maiye, Rory M and Hirano, Matthew and Nelson, Angelique M and Tang, Joyce and Theriot, Julie A and Yan, Calysta and Menon, Vilas and Palecek, Sean P and Seelig, Georg and Gunawardane, Ruwanthi N},
     title = {A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes},
     elocation-id = {2021.04.22.441027},
     year = {2021},
