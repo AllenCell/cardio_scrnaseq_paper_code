@@ -96,8 +96,7 @@ cluster_group_violin = function(seurat_obj,
     anno = cbind(anno, seurat_obj@meta.data[cells.plot, ])
 
     anno$cluster_id = anno[, resolution]
-    anno$cluster_label = sapply(X = anno[, resolution], FUN = function(x) { return(paste0("C", x))
-                                                                                                                               }
+    anno$cluster_label = sapply(X = anno[, resolution], FUN = function(x) { return(paste0("C", x))})
 
     anno$cluster = anno[, resolution]
     anno = merge(anno, cluster_color_df, by = "cluster")
