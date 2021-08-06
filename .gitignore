@@ -1,0 +1,17 @@
+data/data_objects
+data/fish_data/nonstructure_features/
+data/fish_data/nonstructure_fields/
+data/scrnaseq_processed/protocol1_d0_to_d90/out.out
+data/scrnaseq_processed/scrnaseq_counts/README.md
+data/scrnaseq_processed/scrnaseq_counts/cell_metadata_test.csv
+data/scrnaseq_processed/scrnaseq_counts/cells_test.csv
+data/scrnaseq_processed/scrnaseq_counts/distribute_scrnaseq_data.py
+data/scrnaseq_processed/scrnaseq_counts/distribute_tg.sh
+data/scrnaseq_processed/scrnaseq_counts/raw_counts_test.mtx
+data/scrnaseq_raw_data/README.md
+data/scrnaseq_raw_data/distribute_scrnaseq_data_raw.py
+data/scrnaseq_raw_data/distribute_tg.sh
+figure_notebooks/.ipynb_checkpoints/
+scripts/analysis/feature_selection/.ipynb_checkpoints/
+scripts/plotting/.ipynb_checkpoints/
+scripts/plotting/make_heatmap.R
