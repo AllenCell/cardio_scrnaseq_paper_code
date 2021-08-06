@@ -1,4 +1,4 @@
-Code for cardio scRNA-seq analysis and figure plots from  manuscript [_A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes_](https://www.biorxiv.org/content/10.1101/2021.04.22.441027v1).
+Code for cardio scRNA-seq analysis and figure plots from  manuscript [_A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes_](https://doi.org/10.1038/s41598-021-94732-1).
 
 **Overview:** Manuscript data set contains single cell RNA-sequencing data from in vitro hiPSC derived cardiomyocytes
 and includes both raw (fastq) and processed data (count matrix).

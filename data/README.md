@@ -1,6 +1,6 @@
 # Data set for _A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes_
 
-This data package contains input data for analyses in the manuscript [_A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes_](https://www.biorxiv.org/content/10.1101/2021.04.22.441027v1).
+This data package contains input data for analyses in the manuscript [_A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes_](https://doi.org/10.1038/s41598-021-94732-1).
 
 **Overview:** This dataset contains single cell RNA-sequencing data from in vitro hiPSC derived cardiomyocytes
 and includes both raw (fastq) and processed data (count matrix).
@@ -54,17 +54,20 @@ Instructions for interacting with quilt packages in Python can be found [here](h
 
 ## Citation
 ```
-@article {Grancharova2021.04.22.441027,
-    author = {Grancharova, Tanya and Gerbin, Kaytlyn A and Rosenberg, Alexander B and Roco, Charles M and Arakaki, Joy E and DeLizo, Colette M and Dinh, Stephanie Q and Donovan-Maiye, Rory M and Hirano, Matthew and Nelson, Angelique M and Tang, Joyce and Theriot, Julie A and Yan, Calysta and Menon, Vilas and Palecek, Sean P and Seelig, Georg and Gunawardane, Ruwanthi N},
-    title = {A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes},
-    elocation-id = {2021.04.22.441027},
-    year = {2021},
-    doi = {10.1101/2021.04.22.441027},
-    publisher = {Cold Spring Harbor Laboratory},
-    URL = {https://www.biorxiv.org/content/early/2021/04/23/2021.04.22.441027},
-    eprint = {https://www.biorxiv.org/content/early/2021/04/23/2021.04.22.441027.full.pdf},
-    journal = {bioRxiv}
+@article{Grancharova2021,
+   author = {Grancharova, Tanya and Gerbin, Kaytlyn A. and Rosenberg, Alexander B. and Roco, Charles M. and Arakaki, Joy E. and DeLizo, Colette M. and Dinh, Stephanie Q. and Donovan-Maiye, Rory M. and Hirano, Matthew and Nelson, Angelique M. and Tang, Joyce and Theriot, Julie A. and Yan, Calysta and Menon, Vilas and Palecek, Sean P. and Seelig, Georg and Gunawardane, Ruwanthi N.},
+   title = {A comprehensive analysis of gene expression changes in a high replicate and open-source dataset of differentiating hiPSC-derived cardiomyocytes},
+   journal = {Scientific Reports},
+   volume = {11},
+   number = {1},
+   pages = {15845},
+   ISSN = {2045-2322},
+   DOI = {10.1038/s41598-021-94732-1},
+   url = {https://doi.org/10.1038/s41598-021-94732-1},
+   year = {2021},
+   type = {Journal Article}
 }
+
 ```
 
 ## License
